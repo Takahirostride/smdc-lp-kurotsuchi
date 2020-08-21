@@ -1,0 +1,21 @@
+<% const page = 'home'; %>
+<%-	include ./_header-kurotsuchi %>
+	<main class="main page__smartDocLp__kurotsuchi sticky-content">
+		<!-- first view -->
+		<%- include ./_partial-firstview-kurotsuchi %>
+		<!-- //first view -->
+
+		<div class="container cmb-5">
+			<div class="row">
+				<%- include ./_partial-content-meritSix %>
+				<%- include ./_partial-content-reservationFlow %>
+				<%- include ./_partial-content-diagnosticsresult %>
+				<%- include ./_partial-content-afterFollow %>
+				<%- include ./_partial-content-access %>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</main>
+<%-	include ./_footer %>
+<%- include ./_partial-footer-kurotsuchi %>
+</body>
+</html>

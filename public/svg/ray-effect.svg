@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1541.411" height="1313.085" viewBox="0 0 1541.411 1313.085">
+  <defs>
+    <filter id="長方形_484" x="0" y="881.857" width="99.469" height="96.371" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_485" x="473.028" y="832.491" width="84.618" height="89.777" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_486" x="284.42" y="850.604" width="85.733" height="51.177" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_487" x="441.417" y="828.121" width="55.409" height="62.735" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_488" x="566.731" y="878.596" width="88.878" height="70.233" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_489" x="711.195" y="860.455" width="74.054" height="96.684" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_490" x="562.954" y="948.652" width="42.192" height="71.42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_491" x="1007.867" y="1027.483" width="47.802" height="69.362" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_484-2" x="1067.205" y="37.778" width="71.405" height="90.684" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_485-2" x="1435.625" y="46.763" width="60.515" height="84.855" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_486-2" x="1371.347" y="5.498" width="83.617" height="62.246" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_487-2" x="1400.967" y="0" width="72.751" height="73.515" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_488-2" x="1345.682" y="213.259" width="97.369" height="99.314" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_489-2" x="1484.87" y="128.598" width="56.541" height="99.805" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-14"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_490-2" x="1189.12" y="280.393" width="69.1" height="50.031" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-15"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_491-2" x="1252.611" y="451.188" width="70.892" height="42.906" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-16"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ray-effect" transform="translate(-350.388 -3563.847)">
+    <g id="グループ_590" data-name="グループ 590" transform="translate(2811.199 3887.083) rotate(-126)">
+      <g id="グループ_584" data-name="グループ 584" transform="translate(65.797 -1748.484) rotate(-92.667)">
+        <path id="多角形_7" data-name="多角形 7" d="M12.282,0,24.563,21.054H0Z" transform="translate(24.563 21.054) rotate(180)" fill="#fff" opacity="0.66"/>
+      </g>
+      <g id="グループ_585" data-name="グループ 585" transform="matrix(-0.723, -0.69, 0.69, -0.723, 137.888, -1693.66)">
+        <path id="多角形_7-2" data-name="多角形 7" d="M12.282,0,24.563,21.054H0Z" transform="translate(24.563 21.054) rotate(180)" fill="#fff" opacity="0.77"/>
+      </g>
+      <g id="グループ_586" data-name="グループ 586" transform="translate(234.029 -1687.094) rotate(180)">
+        <path id="多角形_7-3" data-name="多角形 7" d="M12.282,0,24.563,21.054H0Z" transform="translate(24.563 21.054) rotate(180)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="グループ_587" data-name="グループ 587" transform="matrix(0.921, 0.391, -0.391, 0.921, 419.803, 5214.713)">
+      <g id="グループ_584-2" data-name="グループ 584" transform="matrix(0.047, 0.999, -0.999, 0.047, 127.125, -1716.491)">
+        <path id="多角形_7-4" data-name="多角形 7" d="M9.635,0l9.635,16.518H0Z" transform="translate(19.271 16.518) rotate(180)" fill="#fff"/>
+      </g>
+      <g id="グループ_585-2" data-name="グループ 585" transform="matrix(0.723, 0.69, -0.69, 0.723, 98.696, -1768.849)">
+        <path id="多角形_7-5" data-name="多角形 7" d="M9.635,0l9.635,16.518H0Z" transform="translate(19.271 16.518) rotate(180)" fill="#fff" opacity="0.77"/>
+      </g>
+      <g id="グループ_586-2" data-name="グループ 586" transform="translate(64.654 -1774)">
+        <path id="多角形_7-6" data-name="多角形 7" d="M9.635,0l9.635,16.518H0Z" transform="translate(19.271 16.518) rotate(180)" fill="#fff" opacity="0.66"/>
+      </g>
+    </g>
+    <g id="グループ_588" data-name="グループ 588" transform="translate(-640.413 3539.732) rotate(106)">
+      <g id="グループ_584-3" data-name="グループ 584" transform="matrix(0.047, 0.999, -0.999, 0.047, 185.657, -1732.935)">
+        <path id="多角形_7-7" data-name="多角形 7" d="M11.208,0,22.417,19.214H0Z" transform="translate(22.417 19.214) rotate(180)" fill="#fff" opacity="0.66"/>
+      </g>
+      <g id="グループ_585-3" data-name="グループ 585" transform="matrix(0.723, 0.69, -0.69, 0.723, 133.029, -1768.008)">
+        <path id="多角形_7-8" data-name="多角形 7" d="M11.208,0,22.417,19.214H0Z" transform="translate(22.417 19.214) rotate(180)" fill="#fff" opacity="0.77"/>
+      </g>
+      <g id="グループ_586-3" data-name="グループ 586" transform="translate(64.654 -1774)">
+        <path id="多角形_7-9" data-name="多角形 7" d="M11.208,0,22.417,19.214H0Z" transform="translate(22.417 19.214) rotate(180)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="グループ_626" data-name="グループ 626" transform="translate(446 4848.241)" style="mix-blend-mode: overlay;isolation: isolate">
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_484)">
+        <rect id="長方形_484-3" data-name="長方形 484" width="67.795" height="45.793" rx="10" transform="matrix(-0.77, -0.63, 0.63, -0.77, 61.47, 966.23)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_485)">
+        <rect id="長方形_485-3" data-name="長方形 485" width="35.515" height="63.206" rx="10" transform="translate(482.03 860.08) rotate(-37.43)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_486)">
+        <rect id="長方形_486-3" data-name="長方形 486" width="15.251" height="66.109" rx="7.625" transform="translate(297.7 889.78) rotate(-106.29)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_487)">
+        <rect id="長方形_487-3" data-name="長方形 487" width="35.209" height="42.951" rx="10" transform="translate(450.42 835.96) rotate(-3)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_488)">
+        <rect id="長方形_488-3" data-name="長方形 488" width="67.163" height="46.714" rx="10" transform="matrix(-1, -0.08, 0.08, -1, 642.65, 936.83)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_489)">
+        <rect id="長方形_489-3" data-name="長方形 489" width="19.344" height="79.492" rx="9.672" transform="translate(776.25 935.59) rotate(150.43)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_490)">
+        <rect id="長方形_490-3" data-name="長方形 490" width="53.631" height="7.884" rx="3.942" transform="matrix(0.31, -0.95, 0.95, 0.31, 571.95, 1005.62)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -95.61, -1284.39)" filter="url(#長方形_491)">
+        <rect id="長方形_491-3" data-name="長方形 491" width="53.762" height="6.936" rx="3.468" transform="matrix(-0.44, 0.9, -0.9, -0.44, 1046.67, 1036.52)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="グループ_627" data-name="グループ 627" transform="matrix(-0.719, -0.695, 0.695, -0.719, 1881.807, 3678.247)" style="mix-blend-mode: overlay;isolation: isolate">
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_484-2)">
+        <rect id="長方形_484-4" data-name="長方形 484" width="67.795" height="45.793" rx="10" transform="translate(1084.13 116.46) rotate(-96.71)" fill="#fff"/>
+      </g>
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_485-2)">
+        <rect id="長方形_485-4" data-name="長方形 485" width="35.515" height="63.206" rx="10" transform="translate(1451.86 52.76) rotate(6.57)" fill="#fff"/>
+      </g>
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_486-2)">
+        <rect id="長方形_486-4" data-name="長方形 486" width="15.251" height="66.109" rx="7.625" transform="matrix(0.47, -0.89, 0.89, 0.47, 1380.35, 25)" fill="#fff"/>
+      </g>
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_487-2)">
+        <rect id="長方形_487-4" data-name="長方形 487" width="35.209" height="42.951" rx="10" transform="translate(1438.15 6) rotate(41)" fill="#fff"/>
+      </g>
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_488-2)">
+        <rect id="長方形_488-4" data-name="長方形 488" width="67.163" height="46.714" rx="10" transform="translate(1398.87 300.57) rotate(-131.14)" fill="#fff"/>
+      </g>
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_489-2)">
+        <rect id="長方形_489-4" data-name="長方形 489" width="19.344" height="79.492" rx="9.672" transform="matrix(-0.97, -0.25, 0.25, -0.97, 1512.6, 216.4)" fill="#fff"/>
+      </g>
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_490-2)">
+        <rect id="長方形_490-4" data-name="長方形 490" width="53.631" height="7.884" rx="3.942" transform="translate(1198.12 311.45) rotate(-27.86)" fill="#fff"/>
+      </g>
+      <g transform="matrix(-0.72, 0.69, -0.69, -0.72, 1181.08, -981.52)" filter="url(#長方形_491-2)">
+        <rect id="長方形_491-4" data-name="長方形 491" width="53.762" height="6.936" rx="3.468" transform="translate(1314.5 463.71) rotate(160)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="グループ_1174" data-name="グループ 1174" transform="translate(1764.178 2888.358) rotate(-162)">
+      <g id="グループ_584-4" data-name="グループ 584" transform="matrix(0.047, 0.999, -0.999, 0.047, 275.88, -1700.452)">
+        <path id="多角形_7-10" data-name="多角形 7" d="M10.574,0,21.149,18.127H0Z" transform="translate(21.149 18.127) rotate(180)" fill="#fff" opacity="0.66"/>
+      </g>
+      <g id="グループ_585-4" data-name="グループ 585" transform="matrix(0.723, 0.69, -0.69, 0.723, 186.95, -1768.347)">
+        <path id="多角形_7-11" data-name="多角形 7" d="M10.574,0,21.149,18.127H0Z" transform="translate(21.149 18.127) rotate(180)" fill="#fff" opacity="0.77"/>
+      </g>
+      <g id="グループ_586-4" data-name="グループ 586" transform="translate(64.654 -1774)">
+        <path id="多角形_7-12" data-name="多角形 7" d="M10.574,0,21.149,18.127H0Z" transform="translate(21.149 18.127) rotate(180)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+/* Bootstrap を読み込む */
+@import "~bootstrap/scss/bootstrap.scss";
+/* common を先に読み込む */
+@import "./_common";
+@import "./_header";
+@import "./_footer";
+@import "./_smart-scan-lp-kurotsuchi";
+@import "./_partial-content-flowBox";
+@import "./_layout";

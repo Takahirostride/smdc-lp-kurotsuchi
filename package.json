@@ -1,0 +1,50 @@
+{
+  "name": "smart-doc-lp-kurotsuchi",
+  "version": "1.0.0",
+  "description": "smart doc landing page development project 2020.8",
+  "main": "index.js",
+  "repository": "https://github.com/Takahirostride/smdc-lp-kurotsuchi-dev",
+  "author": "Takahiro Sawada",
+  "license": "MIT",
+  "browserslist": [
+    "last 2 versions",
+    "Android 4.0",
+    "iOS 8.1"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.5",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "core-js": "^3.6.5",
+    "css-loader": "^4.1.0",
+    "ejs": "^3.1.3",
+    "ejs-compiled-loader": "^3.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "write-file-webpack-plugin": "^4.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "start:dev": "webpack-dev-server",
+    "start:prd": "set NODE_ENV=test&&webpack-dev-server --config webpack.config.js --mode production",
+    "build:dev": "webpack --config webpack.config.js",
+    "build:prd": "set NODE_ENV=test&&webpack --config webpack.config.js --mode production"
+  }
+}

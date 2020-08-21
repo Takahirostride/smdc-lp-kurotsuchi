@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="67" viewBox="0 0 58 67">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#83bfff"/>
+      <stop offset="1" stop-color="#b5d7ff"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-triangle-conversion" transform="translate(-1175.314 -67.785)">
+    <path id="多角形_18" data-name="多角形 18" d="M33.5,0,67,58H0Z" transform="translate(1233.314 67.785) rotate(90)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

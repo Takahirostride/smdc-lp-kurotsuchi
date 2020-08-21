@@ -1,0 +1,14 @@
+{
+    "data": {
+        "pageMeta": {
+            "home": {
+            "title": "トップページ",
+            "description": "トップページの説明文です"
+            },
+            "page1": {
+            "title": "ページ1のタイトル",
+            "description": "ページ1の説明文です"
+            }
+        }
+    }
+}

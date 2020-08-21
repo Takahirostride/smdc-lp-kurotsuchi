@@ -1,0 +1,95 @@
+/* content topic header */
+.designunit__topic {
+    display: inline-block;
+    padding-bottom: 1rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: $color-brand-blue;
+    border-bottom: 3px solid $color-line-lightblue;
+}
+
+/* conversion button */
+.button__frame__mech {
+    width: 100%;
+    @include media-breakpoint-up(md) {
+        width: 60%;
+        display: inline-block;
+    };
+}
+.button__frame__underContent {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+        width: 46rem;
+    };
+}
+.designunit__conversionBtn__brand {
+    background: $color-brand-matblue;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: white 2px solid;
+    border-radius: $radius-10;
+    box-shadow: 5px 5px 10px #2470f324, -5px -5px 43px #FFFFFF;
+    &:hover {
+        background: $color-line-lightblue-ops;
+    }
+}
+
+/* neuobutton */
+.neuo-list-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+    & .neuo-list {
+        position: relative;
+        list-style: none;
+        text-align: center;
+        margin: 15px;
+        & .neuo-label {
+            position: relative;
+            cursor: pointer;
+            & input[type="checkbox"] {
+                position: absolute;
+                opacity: 0;
+            }
+            &:checked ~ .neuo-icon-box {
+                box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 1),
+                    inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+                & .fa {
+                transform: scale(0.95);
+                }
+            }
+            & .neuo-icon-box {
+                width: 40px;
+                height: 40px;
+                background: $color-brand-blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: -2px -2px 5px rgb(78, 130, 250),
+                    3px 3px 5px rgba(0, 0, 0, 0.1);
+                border-radius: $radius-3;
+                & .fa {
+                    font-size: 30px;
+                    color: #6a9bd8;
+                }
+                &:hover {
+                    opacity: .8;
+
+                    box-shadow: inset -2px -2px 50px rgba(255, 255, 255, 1),
+                            inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+                    & .fa {
+                        transform: scale(0.95);
+                    }
+                }
+            }
+        }
+    }
+}
+

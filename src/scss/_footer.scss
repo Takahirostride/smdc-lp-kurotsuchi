@@ -1,0 +1,31 @@
+/* smart-scan-lp custom CSS (footer) */
+.footer__smartDocLp {
+    padding: 0 0 5rem;
+    @include media-breakpoint-up(md) {
+        padding: 0 0 3rem;
+    };
+    .sns-links-area {
+        width: 18rem;
+        @include media-breakpoint-up(md) {
+            width: 13rem;
+        };
+    }
+    .sns-links-svg {
+        width: 3rem;
+        box-shadow: 5px 5px 10px #2470f324, -5px -5px 43px #FFFFFF;
+        @include media-breakpoint-up(md) {
+            width: 2rem;
+        };
+    }
+
+
+    .footer-logo-svg {
+        width: 80%;
+        @include media-breakpoint-up(sm) {
+            width: 60%;
+        };
+        @include media-breakpoint-up(md) {
+            width: 30%;
+        };
+    }
+}

@@ -1,0 +1,164 @@
+/* smart-scan-lp custom CSS (main) */
+.page__smartDocLp__kurotsuchi {
+    position: relative;
+    min-width: 320px;
+    @include kosugimaru;
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 4rem;
+    };
+}
+
+/* ファーストビュー */
+.firstview__message {
+    @include kosugimaru;
+
+    position: absolute;
+    z-index: 50;/* < .header__smartDocLp , > .firstview__top */
+    top: 0;
+    left: 1rem;
+    @include media-breakpoint-up(sm) {
+        z-index: 50;/* < .header__smartDocLp , > .firstview__top */
+        top: 4rem;
+        left: 6rem;
+    };
+    @include media-breakpoint-up(lg) {
+        z-index: 50;/* < .header__smartDocLp , > .firstview__top */
+        top: 7rem;
+        left: 6rem;
+    };
+}
+
+.designunit__title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    @include media-breakpoint-up(sm) {
+        border-top: 1px solid white;
+    };
+}
+
+.firstview__sp__top__kurotsuchi {
+    background:
+    url('/public/svg/img-main-isometric-doctor.svg')no-repeat 15% 10%,
+    url('/public/svg/img-main-isometric-patient.svg')no-repeat 85% 10%,
+    $color-brand-green;
+    background-size: 40%;
+    width: 100%;
+    height: 36rem;
+    padding: 11rem 0 0;// 固定
+    .content__sp__catchCopy {
+        padding: 1em;
+        border-radius: $radius-3;
+    }
+    .fvsp-doc-location {
+        border: 1px solid whitesmoke;
+        border-radius: $radius-10;
+        font-size: 1.25rem;
+        padding: .5rem;
+    }
+    .fvsp-doc-topic {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .fvsp-doc-price-per {
+        font-weight: 700;
+        font-size: 2.75rem;
+    }
+    .fvsp-doc-price-unit {
+        font-size: 1rem;
+    }
+}
+
+/* sns(fv)の位置調整 */
+@mixin fv-sns-view {
+    position: absolute;
+    right: 0;
+    bottom: -3rem;
+    @media screen and (min-width:992px) {
+        position: absolute;
+        right: initial;
+        left: 0;
+        bottom: -3rem;
+    }
+    @media screen and (min-width:1130px) {
+        position: absolute;
+        left: initial;
+        right: 0;
+        bottom: -3rem;
+    }
+}
+
+.firstview__top__kurotsuchi {
+    position: relative;
+    background: url('/public/svg/img-main-isometric.svg')no-repeat 20% 75%,$color-brand-green;
+    background-size: 20rem;
+    width: 100%;
+    height: 570px;
+
+    .sns-links-area {
+        width: 8rem;
+        @include fv-sns-view;
+    }
+    .sns-links-svg {
+        width: 1.75rem;
+    }
+}
+.designunit__catchcopy__fv {
+    width: 10rem;
+    height: 10rem;
+    box-sizing: border-box;
+    background: url('/public/svg/circle-fv-checking.svg')top left no-repeat;
+    background-size: 10rem;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 700;
+    small {
+        font-weight: 700;
+    }
+}
+.designunit__card__fv {
+    position: absolute;
+    @include media-breakpoint-up(sm) {
+        top: 20rem;
+        right: 5rem;
+        background: transparent;
+        border: initial;
+        .card-image-area {
+            width: 20rem;
+            padding: 2rem;
+            margin: 0 auto;
+            padding: 0 0 1rem;
+            text-align: center;
+        }
+    };
+    @include media-breakpoint-up(lg) {
+        right: initial;
+        top: 3rem;
+        left: 45%;
+        background: white;
+        border: 1px solid $color-line;
+        .card-image-area {
+            width: 80%;
+            padding: 2rem;
+            margin: 0 auto;
+            padding: 0 0 2rem;
+            text-align: center;
+        }
+    };
+}
+.designunit__label__city {
+    color: $color-brand-green;
+    background: white;
+    border:1px solid $color-brand-green;
+    border-radius: $radius-3;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .5rem 1rem;
+}
+
+/* override */
+.designunit__card__fv > .button__frame__underContent {
+    width: auto;
+}

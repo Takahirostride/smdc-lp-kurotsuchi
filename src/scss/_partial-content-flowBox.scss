@@ -1,0 +1,87 @@
+@mixin flowBox {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    left: -.5rem;
+    top: -2rem;
+    font-size: 1.5rem;
+    background: $bgi-gradient-matgray-whitegray;
+    width: 4rem;
+    height: 4rem;
+    padding: 0.7rem 1.6rem;
+    border-radius: 50%;
+    @include media-breakpoint-up(md) {
+        left: -2rem;
+    };
+}
+.designunit__flowBox {
+    position: relative;
+    border: 1px solid $color-line;
+    border-radius: $radius-3;
+    line-height: 1.75;
+    .designunit__timeRequired {
+        border: 1px solid $color-brand-blue;
+        border-radius: $radius-50;
+        color: $color-brand-blue;
+        background: $color-bg-lightblue;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: .5rem 1rem;
+    }
+    .designunit__findings {
+        color: $color-line-lightblue;
+        border: 1px solid $color-line-lightblue;
+        border-radius: $radius-10;
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    .vborder__brand {
+        padding: 0;
+        margin: 0 0 1rem;
+        border-bottom: 1px solid $color-brand-blue;
+        @include media-breakpoint-up(md) {
+            padding: 0 1rem 1rem;
+            border-bottom: initial;
+            border-right: 1px solid $color-brand-blue;
+            height: 100%;
+        };
+    }
+
+    &.flowBox__1::before {
+        content: "1";
+        @include flowBox;
+    }
+    &.flowBox__2::before {
+        content: "2";
+        @include flowBox;
+    }
+    &.flowBox__3::before {
+        content: "3";
+        @include flowBox;
+    }
+}
+.designunit__flowBox__explanation {
+    @extend .designunit__flowBox;
+    &::before {
+        content: "";
+        @include flowBox;
+        background: url('/public/svg/icon-explanation.svg') no-repeat 1rem 1rem/50%,$bgi-gradient-lightblue-white;
+    }
+}
+.designunit__flowBox__doctor {
+    @extend .designunit__flowBox;
+    &::before {
+        content: "";
+        @include flowBox;
+        background: url('/public/svg/icon-doctor.svg') no-repeat 1rem 1rem/50%,$bgi-gradient-lightblue-white;
+    }
+}
+.designunit__flowBox__findings {
+    @extend .designunit__flowBox;
+    &::before {
+        content: "";
+        @include flowBox;
+        background: url('/public/svg/icon-findings.svg') no-repeat 1rem 1rem/50%,$bgi-gradient-lightblue-white;
+    }
+}

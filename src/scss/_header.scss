@@ -1,0 +1,73 @@
+/* smart-scan-lp custom CSS (header) */
+.designunit__navbarLink {
+    width: 100%;
+}
+.cnav-item {
+    height: 4.5rem;
+    .cnav-link {
+        position: relative;
+        height: 100%;
+        border-bottom: 1px solid $color-line-whitegray;
+        .menu-name {
+            @include v-centering;
+            height: 1rem;
+            font-size: 1.25rem;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        height: auto;
+        .cnav-link {
+            height: auto;
+            border-bottom: initial;
+            .menu-name {
+                position: relative;
+                height: auto;
+                font-size: 1rem;
+            }
+        }
+    };
+}
+
+.header__smartDocLp {
+    z-index: 100;
+    background: white;
+    border-bottom: 1px solid $color-brand-blue;
+    .button__frame__header {
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto;
+        width: 100%;
+        @include media-breakpoint-up(lg) {
+            margin: 0 auto;
+            width: auto;
+        };
+    }
+    .button-smdc-login {
+        color: $color-line-darkabyss;
+        border: 1px solid $color-line-darkabyss;
+        border-radius: $radius-10;
+        font-size: 1rem;
+        @include media-breakpoint-up(md) {
+            font-size: 1.5rem;
+        };
+        @include media-breakpoint-up(lg) {
+            font-size: 1rem;
+        };
+    }
+    .button-smdc-reserve {
+        color: $color-line-lightblue;
+        border: 1px solid $color-line-lightblue;
+        border-radius: $radius-10;
+        font-size: 1rem;
+        @include media-breakpoint-up(md) {
+            font-size: 1.5rem;
+        };
+        @include media-breakpoint-up(lg) {
+            font-size: 1rem;
+        };
+    }
+    .button-login-svg , .button-reserve-svg {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}

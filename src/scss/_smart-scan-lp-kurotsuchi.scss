@@ -9,6 +9,11 @@
     };
 }
 
+/* ブランドロゴ（くろつち） */
+.brand-logo {
+    width: 10rem;
+}
+
 /* ファーストビュー */
 .firstview__message {
     @include kosugimaru;
@@ -52,11 +57,16 @@
         padding: 1em;
         border-radius: $radius-3;
     }
-    .fvsp-doc-location {
-        border: 1px solid whitesmoke;
-        border-radius: $radius-10;
-        font-size: 1.25rem;
-        padding: .5rem;
+    .fvsp-brand {
+        & {
+            background: white;
+            border-radius: 10px;
+            font-size: 1.25rem;
+            padding: .5rem;
+        }
+        > img {
+            width: 17rem;
+        }
     }
     .fvsp-doc-topic {
         font-weight: 700;
@@ -92,8 +102,8 @@
 
 .firstview__top__kurotsuchi {
     position: relative;
-    background: url('/public/svg/img-main-isometric.svg')no-repeat 20% 75%,$color-brand-green;
-    background-size: 20rem;
+    background: url('/public/svg/img-main-isometric.svg')no-repeat 15% 75%,$color-brand-green;
+    background-size: 23rem;
     width: 100%;
     height: 570px;
 
@@ -121,32 +131,26 @@
 .designunit__card__fv {
     position: absolute;
     @include media-breakpoint-up(sm) {
-        top: 20rem;
-        right: 5rem;
-        background: transparent;
+        top: 10rem;
+        right: 1rem;
+        background: rgba(255, 255, 255, 0.7);
         border: initial;
-        .card-image-area {
-            width: 20rem;
-            padding: 2rem;
-            margin: 0 auto;
-            padding: 0 0 1rem;
-            text-align: center;
-        }
+
     };
     @include media-breakpoint-up(lg) {
         right: initial;
         top: 3rem;
         left: 45%;
+        max-width: 40rem;
         background: white;
         border: 1px solid $color-line;
-        .card-image-area {
-            width: 80%;
-            padding: 2rem;
-            margin: 0 auto;
-            padding: 0 0 2rem;
-            text-align: center;
-        }
+
     };
+}
+.designunit__brand__fv {
+    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: .5rem;
 }
 .designunit__label__city {
     color: $color-brand-green;
@@ -161,4 +165,11 @@
 /* override */
 .designunit__card__fv > .button__frame__underContent {
     width: auto;
+}
+
+/* cotent diagnosis result */
+.fontunit__result {
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: 300;
 }

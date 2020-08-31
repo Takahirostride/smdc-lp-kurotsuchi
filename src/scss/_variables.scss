@@ -1,0 +1,47 @@
+/* ブランドカラー */
+$color-brand-blue: #005BA8;
+$color-brand-blue-ops: #005ca86b;
+$color-brand-matblue: #1B63B2;
+$color-brand-green: #69C5B9;
+
+/* 共通色 */
+$color-pastel-cyan: #60daaa;
+$color-pastel-yellow: #fbca67;
+$color-pastel-orange: #ff8a30;
+$color-pastel-red: #f45e61;
+$color-pastel-purple: #4babff;
+$color-pastel-blue: #0eb7da;
+/* 白系 */
+$color-line-whitegray : #f0f0f0;
+$color-clear-white: rgba(255, 255, 255, 0.7);
+/* 黒系 */
+$color-line-darkabyss: #000333;
+/* 灰系 */
+$color-line : #bdbdbd;
+$color-time-matgray: #666;
+/* 青系 */
+$color-line-lightblue: #28B2D5;
+$color-line-lightblue-ops: #28b2d590;
+$color-bg-lightblue: #EAFBFF;
+$color-bg-matblue: #0B4093;
+$color-bg-matblue-ops: #175bc9ba;
+$color-circle-blue: #4472c4;
+$color-line-smokeblue: #A7C0DB;
+/* 赤系 */
+$color-notice-lightred: #FF6161;
+/* グラデーション */
+$bgi-gradient-blue-white: linear-gradient(to bottom, #005ba8, #6eade1, #ffffff, #ffffff, #ffffff);
+$bgi-gradient-matblue-white: linear-gradient(to bottom, #0B4093, #0B4093, #0B4093, #0B4093, #6c9eee);
+$bgi-gradient-lightblue-white: linear-gradient(to left top, #28B2D5, #43c1e1, #ffffff);
+$bgi-gradient-lightpurple-white: linear-gradient(to right top, #dee4f3, #e6e3ef, #ebe3ea, #ebe4e7, #e9e6e6);
+$bgi-gradient-matgray-white: linear-gradient(to left top, #ffffff, #ffffff, #c0cdd6, #c0cdd6, #ffffff, #ffffff, #ffffff);
+$bgi-gradient-matgray-whitegray: linear-gradient(to left top, #0b0218, #0e032a, #99a2a9);
+
+/* 角丸 */
+$radius-3: 3px;
+$radius-10: 10px;
+$radius-30: 30px;
+$radius-50: 50px;
+
+/* 特殊変数 */
+$sticky-content-width: 100%;

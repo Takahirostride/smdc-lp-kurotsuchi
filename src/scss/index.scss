@@ -1,6 +1,7 @@
 /* Bootstrap を読み込む */
 @import "~bootstrap/scss/bootstrap.scss";
 /* common を先に読み込む */
+@import "./_variables";
 @import "./_common";
 @import "./_header";
 @import "./_footer";

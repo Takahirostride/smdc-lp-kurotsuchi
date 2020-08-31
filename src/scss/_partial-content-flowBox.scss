@@ -5,7 +5,7 @@
     left: -.5rem;
     top: -2rem;
     font-size: 1.5rem;
-    background: $bgi-gradient-matgray-whitegray;
+    background: $color-circle-blue;
     width: 4rem;
     height: 4rem;
     padding: 0.7rem 1.6rem;
@@ -23,7 +23,7 @@
         border: 1px solid $color-brand-blue;
         border-radius: $radius-50;
         color: $color-brand-blue;
-        background: $color-bg-lightblue;
+        background: white;
         display: inline-block;
         font-size: 1rem;
         font-weight: 600;
@@ -66,7 +66,7 @@
     &::before {
         content: "";
         @include flowBox;
-        background: url('/public/svg/icon-explanation.svg') no-repeat 1rem 1rem/50%,$bgi-gradient-lightblue-white;
+        background: url('/public/svg/icon-explanation.svg') no-repeat 1rem 1rem/50%,$color-circle-blue;
     }
 }
 .designunit__flowBox__doctor {
@@ -74,7 +74,7 @@
     &::before {
         content: "";
         @include flowBox;
-        background: url('/public/svg/icon-doctor.svg') no-repeat 1rem 1rem/50%,$bgi-gradient-lightblue-white;
+        background: url('/public/svg/icon-doctor.svg') no-repeat 1rem 1rem/50%,$color-circle-blue;
     }
 }
 .designunit__flowBox__findings {
@@ -82,6 +82,6 @@
     &::before {
         content: "";
         @include flowBox;
-        background: url('/public/svg/icon-findings.svg') no-repeat 1rem 1rem/50%,$bgi-gradient-lightblue-white;
+        background: url('/public/svg/icon-findings.svg') no-repeat 1rem 1rem/50%,$color-circle-blue;
     }
 }

@@ -1,10 +1,10 @@
-<div class="firstview__message d-none d-md-block">
+<div class="firstview__message d-none d-sm-block">
     <h1 class="designunit__title py-3">脳ドックを手軽に。<br><span class="ml-3 ml-md-4">予防医療で人々を幸せに。</span></h1>
 </div>
 <div class="firstview__sp__top__kurotsuchi d-sm-none">
     <div class="content__sp__catchCopy">
         <h2 class="designunit__title text-center py-3">
-            <span class="fvsp-doc-location d-inline-block">福岡県 春日フォレストシティ内</span>
+            <span class="fvsp-brand d-inline-block"><img src="./svg/brand-logo.svg" class="img-fluid" alt="スマート脳ドック"></span>
             <span class="fvsp-doc-topic d-inline-block pt-3">受付～検査完了まで30分！<br>脳のMRI検査</span>
             <hr class="bg-white">
             <span class="fvsp-doc-price-per d-inline-block">1回 17,500</span><span class="fvsp-doc-price-unit">円（税別）</span>
@@ -15,14 +15,13 @@
 
 <div class="firstview__top__kurotsuchi d-none d-sm-block">
     <div class="card designunit__card__fv text-center d-none d-sm-block px-3 py-4">
-        <h2 class="designunit__label__city mb-3">
-            福岡県 春日フォレストシティ内
+        <h2 class="designunit__brand__fv mb-3">
+            <img src="./svg/brand-logo.svg" class="img-fluid" alt="スマート脳ドック">
         </h2>
         <div class="card-image-area">
-            <img src="./svg/catchcopy-sub.svg" alt="" class="img-fluid d-none d-lg-block">
-            <img src="./svg/catchcopy-sub-white.svg" alt="" class="img-fluid d-lg-none">
+            <%- include ./_partial-catchcopy-smartdoc %>
         </div>
-        <div class="d-none d-lg-flex mx-auto">
+        <div class="d-none d-lg-flex justify-content-center">
             <div class="designunit__catchcopy__fv mr-3">
                 <p>予約が簡単</p>
                 <p>こちらのサイトで<br>予約完了</p>
@@ -37,7 +36,7 @@
             </div>
         </div>
         <div class="d-none d-lg-block">
-            <p class="text-center font-weight-bold">※ 自費診療となります。</p>
+            <p class="text-center font-weight-bold my-2">※ 自費診療となります。</p>
         </div>
 
         <%-	include ./conversion/_partial-button-frame-underContent-1 %>

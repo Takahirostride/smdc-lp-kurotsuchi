@@ -31,9 +31,8 @@
     font-weight: 600;
     border: white 2px solid;
     border-radius: $radius-10;
-    box-shadow: 5px 5px 10px #2470f324, -5px -5px 43px #FFFFFF;
     &:hover {
-        background: $color-line-lightblue-ops;
+        background: $color-bg-matblue-ops;
     }
 }
 
